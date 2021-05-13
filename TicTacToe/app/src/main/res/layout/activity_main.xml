@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_01"
+    android:paddingRight="0dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="393dp"
+        android:layout_height="656dp"
+        android:background="@drawable/dashboard"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/player01"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="147dp"
+            android:layout_marginTop="270dp"
+            android:fontFamily="@font/myfont"
+            android:hint="Player 1"
+            android:textColor="#1124D8"
+            android:textColorHint="#FBFBFB" />
+
+        <EditText
+            android:id="@+id/player02"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="147dp"
+            android:layout_marginTop="97dp"
+            android:fontFamily="@font/myfont"
+            android:hint="Player 2"
+            android:textColor="#1124D8"
+            android:textColorHint="#FBFBFB"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="247dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="41dp"
+            android:fontFamily="sans-serif-condensed"
+            android:onClick="letsGo"
+            android:text="Lets go"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
